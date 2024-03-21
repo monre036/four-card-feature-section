@@ -21,5 +21,118 @@ ul {
 
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #4D4F62;
+}
+
+.header {
+    text-align: center;
+    padding: 40px;
+}
+
+.header-title {
+    margin-block: 0;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.header-subtitle {
+    margin-block: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(77, 79, 98, 0.5);
+}
+
+.main {
+    padding: 40px;
+}
+
+.box {
+    position: relative;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px -11px #83a7d280;
+    margin-bottom: 25px;
+    padding: 28px;
+}
+
+.box-title {
+    margin-block: 0;
+}
+
+.box-text {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(77, 79, 98, 0.5);
+}
+
+.box-image {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    right: 28px;
+    bottom: 28px;
+}
+
+.box-lightblue {
+    border-top: 5px solid #44D3D2;
+}
+
+.box-red {
+    border-top: 5px solid #EA5454;
+}
+
+.box-orange {
+    border-top: 5px solid #FCAE4A;
+}
+
+.box-blue {
+    border-top: 5px solid #549EF2;
+}
+
+@media screen and (width >=768px) {
+    .header {
+        padding-inline: 450px;
+    }
+
+    .header-title {
+        font-size: 36px;
+    }
+
+    .header-subtitle {
+        font-size: 36px;
+    }
+
+    .main {
+        position: relative;
+    }
+
+    .box {
+        position: relative;
+    }
+
+    .box-lightblue {
+        position: absolute;
+        left: 0;
+    }
+
+    .box-red {
+        position: absolute;
+        top: 0;
+    }
+
+    .box-orange {
+        position: absolute;
+        right: 0;
+    }
+
+    .box-blue {
+        position: absolute;
+        bottom: 0;
+    }
 }
